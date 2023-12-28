@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+}
+/* navbar */
+#header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+  }
+
+  #header img{
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+  }
+  
+  .naVLinks {
+    margin-left: 30%;
+    top: 0;
+    list-style: none;
+    display: inline;
+    
+    
+  }
+  
+  .naVLinks li {
+    position: relative;
+    display: inline-block;
+     padding: 34px;
+     font-family: Arial, Helvetica, sans-serif;
+
+  }
+  .naVLinks ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  .naVLinks a {
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .naVLinks li:hover {
+
+    background-color: rgb(136, 239, 239);
+    border-radius: 4px;
+  
+}
+/* navbar submenu */
+.naVLinks .submenu {
+    display: none;
+    position: absolute;
+    background-color:rgb(243, 244, 244);
+    border-radius: 4px;
+    top: 91px;
+    right: -26px;
+    z-index: 900;
+    padding: 0;
+    margin: 0;
+}
+
+.naVLinks li:hover .submenu {
+    display: block;
+    border-radius: 4px;
+}
+.naVLinks  li .submenu li {
+    display: block;
+    border-radius: 4px;
+}
+/* intro */
+.container td {
+    position: relative;
+}
+.buttonIntro
+{
+    margin:30px 45px;
+}
+
+.icon img{
+    color: rgb(19, 19, 201);
+}
+.picIntro
+{
+   
+    position: relative;
+    left: 2px;
+    width: auto;
+
+}
+/* section one */
+/* background color */
+.colorDiv {
+    background-color:rgb(56, 175, 196);
+    width: 335px;
+    position: absolute;
+    height: 420px;
+    z-index: -1;
+    left: -60px;
+    top: -60px;
+}
+td h5 {
+    color: #083190;
+    font-size: 16px;
+    font-weight: 500;
+}
+.text {
+    color: #041a53;
+    font-size: 38px;
+    line-height: 1.4;
+    padding-right: 30px; 
+
+}
+/* section two */
+/* background color */
+.colorDiv2
+{
+    background-color:rgb(56, 175, 196);
+    width: 335px;
+    position: absolute;
+    height: 420px;
+    z-index: -1;
+    right: -60px;
+    top: -60px;
+}
+td h5 {
+    color: #083190;
+    font-size: 16px;
+    font-weight: 500;
+}
+.textsection2
+{
+    color: #041a53;
+    padding-left: -22px;
+    font-size: 38px;
+}
+/* section three */
+/* background color */
+.icon img{
+    color: rgb(19, 19, 201);
+}
+.textsection3 {
+    color: #041a53;
+    padding-left: -11px;
+    font-size: 36px;
+    line-height: 1.4;
+}
+/* all button in website */
+button {
+    margin-top: 60px;
+    padding: 25px 60px;
+    border: 1px solid rgb(7, 7, 122);
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: #1c3cc6;
+}
+button:hover
+{
+    background-color:rgb(136, 239, 239);
+}
+
+/* section four*/
+/*trending section */
+.section4 {
+    padding: 50px;
+    background-color: rgb(232, 250, 250);
+}
+.section4 h3 {
+  color: #041a53;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.h3-section4 {
+    
+    font-size: 30px;
+}
+.section4 div h3 {
+    margin: 20px 5px;
+}
+.section4 div p {
+    margin: 20px 5px;
+    font-size: 20px;
+}
+/*profile section*/
+ .textlast{
+    
+    font-size: 35px;
+    line-height: 1.4;
+    
+}
+.text-pra{
+    font-size: 20px;
+    color: #083190;
+    margin-left: 30px;
+}
+/*icons section */
+.icon p{
+    font-size: 20px;
+    color:rgb(19, 19, 201);
+    margin-top: 15px;
+    text-align: center;
+}
+.icon{
+     display: inline-block;
+    margin-bottom: 70px;
+    align-items: center;
+}
+.borderIcon {
+    border: 1px solid;
+    margin: 30px;
+    display: inline-block;
+    padding: 45px;
+}
+/*subscribe section*/
+.lastsection
+{
+    background-color:rgb(56, 175, 196);
+    width: 100%;
+    position: relative;
+    height: 420px;
+}
+.lastsection h5 {
+    position: absolute;
+    left: 39%;
+    right: 20%;
+    font-size: 19px;
+    color: white;
+    font-family: ui-serif;
+    top: 45%;
+    margin-left: -176px;
+}
+
+.lastsection h2 {
+    font-size: 40px;
+    color: white;
+    position: absolute;
+    align-items: center;
+    left: 31%;
+    top: 30%;
+}
+
+/*  subscribe section */
+input {
+    border: 1px solid #fff;
+    width: 89%;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 50px;
+    padding: 19px 30px;
+    line-height: 20px;
+}
+.subscribe_form .btn_1 {
+    padding: 15px 30px;
+    line-height: 16px;
+    border-radius: 50px;
+    position: absolute;
+    right: 4px;
+    top: 6px;
+    border: 1px solid;
+}
+.subscribe_form {
+    margin: 0 auto;
+    margin-top: 45px;
+    position: relative;
+    max-width: 558px;
+    bottom: -267px;
+}
+.btn_1 {
+    display: inline-block;
+    padding: 17px 50px;
+    border-radius: 5px;
+    background-color:#5270fe;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+.btn_1:hover
+{
+    background-color: rgb(136, 239, 239);
+    
+}
+input::placeholder {
+    color: #ffffff; /* Set the placeholder color */
+}
+/*last section like header without submenu*/
+#headerlast{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+#headerlast img {
+        position: relative;
+        bottom: -13px;
+        left: 190px;
+    }
+
+#headerlast .logo
+{
+    position: relative;
+    bottom: -13px;
+    left: 20px;
+}
+  .Links {
+    margin-left: 12%;
+    bottom: 0;
+    list-style: none;
+    display: inline;
+  }
+  .Links li {
+    position: relative;
+    display: inline-block;
+    padding: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: -1px;
+}
+  .Links ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+  .Links a {
+    color: rgb(0, 81, 255);
+    text-decoration: none;
+    text-transform: capitalize;
+  }
+  
+  .Links li a:hover {
+
+   color: rgb(136, 239, 239);
+    border-radius:  4px 4px 4px 4px;
+}
+
+.Links li img {
+ position: relative; 
+    left: 79px;
+    padding: 28px;
+    margin: -55px;
+    top: -18px;
+    right: 25px;
+}
+.Links li img:hover {
+
+    color: rgb(154, 155, 155);
+     border-radius:  4px 4px 4px 4px;
+ }
+ /*footer*/
+footer {
+    background-color:rgb(243, 244, 244);
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+}
